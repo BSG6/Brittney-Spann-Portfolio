@@ -167,6 +167,58 @@
 
 			});
 
+
+			//text shuffle Who am I
+
+			const words = ["💡 I Am An Innovator","🎨 I Love To Create",
+            "💻 I am a Full Stack Software Engineer",
+            "🧩 I am a  Problem Solver",
+            "📂 I Organize with Passion",
+            " I am a  Mother",
+            " I am a  Builder",
+            "🧘🏾‍♀️ I am a  Healer",
+            " I am a  Hobby Enthusiast",
+            " I am a Commit Philosopher",
+            "🌿♻️ I'm Deeply Committed to Sustainability"
+        ];
+        
+		function shuffleWords(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                let j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        let index = 0;
+        let charIndex = 0;
+        const textElement = document.querySelector(".text-container");
+        shuffleWords(words); // Shuffle words before first display
+
+        function typeText() {
+            if (charIndex < words[index].length) {
+                textElement.innerHTML += words[index].charAt(charIndex);
+                charIndex++;
+                setTimeout(typeText, 100);
+            } else {
+                setTimeout(deleteText, 1500); // Pause before deleting
+            }
+        }
+
+        function deleteText() {
+            if (charIndex > 0) {
+                textElement.innerHTML = words[index].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(deleteText, 50);
+            } else {
+                index = (index + 1) % words.length;
+                if (index === 0) shuffleWords(words); // Shuffle after all words are shown
+                setTimeout(typeText, 500);
+            }
+        }
+
+        typeText();
+
 	// Features.
 		$('.features')
 			.scrollex({
