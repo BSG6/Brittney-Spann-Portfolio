@@ -82,13 +82,14 @@ input, select, textarea {
 	overflow: hidden;
 	animation: blink 0.7s infinite;
 	font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
+
 }
 
 /* CSS */
 .topbuttons{
 	display:flex;
 	align-items: center;  
-  	justify-content: flex-start; 
+  	justify-content: center; 
 }
 .topButton {
 	align-items: center;  
@@ -127,7 +128,16 @@ input, select, textarea {
   @media (min-width: 768px) {
 	.topButton {
 	  padding: 13px 50px;
+	  display:flex;
+	  
 	}
+	.topButtons{
+		align-content:center;
+		justify-content:center;
+	}
+	.icons {
+        font-size: 2.5rem;   
+    }
   }
   .logo{
 	display:flex;
@@ -160,6 +170,12 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
+		}
+		.dev-toolkit {
+			gap: 20px;        
+		}
+		.icons {
+			font-size: 2rem;     
 		}
 
 	}
@@ -2578,11 +2594,14 @@ input, select, textarea {
 	*{
 		font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
 	}
-	.font{
-		font-family:'Montserrat Alternates',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	}
+	
 	.name{
 		font-family:'Henny Penny',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+	}
+	.font {
+		display:flex;
+		align-items: center;  
+		justify-content: center; 
 	}
 /* who i am */
 	.whoIAm {
@@ -2591,11 +2610,17 @@ input, select, textarea {
 		font-size: .9rem;
 		text-align:center;
 	}
-	.whoIAm p{
-		margin:auto 0;
-		padding:0px;
-		max-width:80%;
-		text-align:center;
+	.aboutMe{
+		font-family:'Montserrat Alternates',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		display:flex;
+		align-items: center;  
+  		justify-content: center; 
+		  margin:auto 0;
+		  padding:7px;
+		  max-width:100%;
+		  /* text-align:center; */
+		  display:flex;
+		  
 	}
 	.iconBox {
 		display:flex;
@@ -2611,11 +2636,13 @@ input, select, textarea {
 		display: flex;
 		justify-content: center; 
 		align-items: center; 
-		gap: 20px;  
+		gap: 15px;  
 		flex-wrap: wrap; 
-		padding: 20px; 
+		padding: 50px; 
 		max-height:200px;
 		overflow:visible;
+		margin-bottom:20px;
+		margin-top:20px;
 	}
 	.icons{
 		width: 150px;
