@@ -31,3 +31,6 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7b758e65-fdc4-409f-b0db-fd6c32148efe/deploy-status)](https://app.netlify.com/sites/willowy-crumble-19d82d/deploys)
