@@ -1,36 +1,25 @@
-Hyperspace by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+My Personal Website
+https://brittneyspann.netlify.app/  <---- LINK TO MY SITE
+
+A digital space that truly reflects me—my work, my journey, and the things I'm passionate about. This site is my online home where I showcase my skills, projects, and everything in between.
 
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+How It's Made:
 
-(* = not included)
+Tech Used:
 
-AJ
-aj@lkn.io | @ajlkn
+HTML
 
+CSS 
 
-Credits:
+JavaScript
 
-	Demo Images:
-		Unsplash (unsplash.com)
+I built this website using a template as a foundation but heavily modified it to fit my style and needs. I focused on creating a seamless user experience with smooth transitions, interactive elements, and an aesthetic design. I also integrated custom components and tweaked the layout to make it unique and personalized.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Lessons Learned:
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Building my site on a template has been a frustrating, yet rewarding experience. This site reinforced a lot of what I’ve learned about Html, CSS and Javascript. One of the biggest takeaways was fine-tuning animations without affecting performance—turns out, small CSS tweaks can make such a big difference! I also learned more about deploying and managing a live site, which was an exciting step forward in my journey as a developer. Customizing a pre-existing template taught me how to work within constraints while still making something feel completely my own.
 
+This project is a reflection of my growth, and I’m excited to keep improving it as I learn more. Check it out and let me know what you think!
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7b758e65-fdc4-409f-b0db-fd6c32148efe/deploy-status)](https://app.netlify.com/sites/willowy-crumble-19d82d/deploys)
