@@ -41,6 +41,10 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+italics{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+}
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
@@ -54,6 +58,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background:black;
 }
 
 mark {
@@ -82,7 +87,9 @@ input, select, textarea {
 	overflow: hidden;
 	animation: blink 0.7s infinite;
 	font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
-
+	align-items: center;  
+  	justify-content: center; 
+	display:flex;
 }
 
 /* CSS */
@@ -96,6 +103,7 @@ input, select, textarea {
   	justify-content: center; 
 	  /* height: 40px;
 	  line-height: 40px; */
+	font-size:15px;
 	font-weight: 200;
 	letter-spacing: 1px;
 	padding: 5px 7px;
@@ -123,6 +131,9 @@ input, select, textarea {
   }
   .name{
 	font-family: '';
+  } 
+  .projects{
+	margin:30px;
   }
   
   @media (min-width: 768px) {
@@ -149,7 +160,23 @@ input, select, textarea {
   h1{
 	text-align:center;
   }
-  
+  .picCon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+  }
+  .pic{
+	max-height:330px;
+	border-radius:1px;
+	align-content:center;
+	justify-content:center;
+	border-radius: 16px; /* Rounded corners */
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 123, 255, 0.3); /* Subtle glow */
+	max-width: 100%;
+	height: auto;
+  }
+
 @keyframes blink {
 	50% {
 		border-right-color: transparent;
@@ -189,7 +216,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: radial-gradient(circle, rgba(0, 100, 0, 0.2) 10%, #121212 80%);
+		/* background: radial-gradient(circle, rgba(0, 100, 0, 0.2) 10%, #121212 80%); */
+		background:black;
 		color: #d4fcb8; 
 		font-family: 'Poppins', sans-serif;	}
 
@@ -2614,13 +2642,13 @@ input, select, textarea {
 		font-family:'Montserrat Alternates',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 		display:flex;
 		align-items: center;  
-  		justify-content: center; 
-		  margin:auto 0;
-		  padding:7px;
-		  max-width:100%;
+		justify-content: center; 
+		margin:auto 0;
+		padding:7px;
+		max-width:100%;
 		  /* text-align:center; */
-		  display:flex;
-		  
+		display:flex;
+
 	}
 	.iconBox {
 		display:flex;
@@ -2737,6 +2765,14 @@ input, select, textarea {
 				}
 
 /* Image */
+.github{
+	margin-bottom:20px;
+	font-size:2em;
+	color:white;
+}
+.github:hover{
+	transform: scale(1.2);
+}
 
 	.image {
 		border-radius: 0.25em;
@@ -3211,21 +3247,13 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 4em 5em 2em 5em ;
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
+			padding: 4em 5em 2em;
 			display: flex;
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
 			flex-direction: column;
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			-ms-flex: 1;
+			flex: 1;
+
 		}
 
 			.spotlights > section > .content > .inner {
