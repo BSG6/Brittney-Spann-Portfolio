@@ -1,6 +1,6 @@
 
 My Personal Website
-https://brittneyspann.netlify.app/  <---- LINK TO MY SITE
+[digitalflower.tech ](https://digitalflower.tech/) <---- LINK TO MY SITE
 
 A digital bloom that truly reflects me, my work, my journey, and the things I'm passionate about. This site is my online home where I showcase my skills, projects, and everything in between.
 
@@ -24,4 +24,4 @@ Building my site on a template has been a frustrating, yet rewarding experience.
 
 This project is a reflection of my growth, and I’m excited to keep improving it as I learn more. Check it out and let me know what you think!
 
-https://brittneyspann.netlify.app/
+
